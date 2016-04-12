@@ -10,7 +10,7 @@ h1 {
     color: #1B1B19;
     font-size: 40px;
     border-bottom: 0.2px white solid;
-    width: 170px;
+    width: 350px;
     padding-bottom: 3px;
     margin: 10px auto;
 }
@@ -20,4 +20,8 @@ p {
     text-indent: 2em;
     line-height: 1.5;
     font-size: 30px;
+}
+
+form {
+    text-indent: 3.5em;
 }
