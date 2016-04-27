@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>浮动</title>
+    <style>
+    #head {
+        border: 1px #CCC solid;
+        width: 410px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    
+    #main {
+        border: 1px #CCC solid;
+        width: 90%px;
+        height: 200px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    
+    #left {
+        border: 1px #CCC solid;
+        width: 198px;
+        height: 98px;
+        float: left;
+    }
+    
+    #right {
+        border: 1px #CCC solid;
+        width: 198px;
+        height: 98px;
+        margin-left: 1px;
+        float: right;
+    }
+
+     #middle {
+        border: 1px #CCC solid;
+        width: 198px;
+        height: 98px;
+        margin-left: 200px;
+        float: middle;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id="head">头部</div>
+    <div id="main">
+        <div id="left">左侧</div>
+        <div id="right">右侧</div>
+        <div id="middle">中间内容</div>
+    </div>
+</body>
+<head>
+    <meta charset="utf-8" />
+    <title>浮动清除实例</title>
+    <style>
+    body {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .item {
+        width: 500px;
+        border: 1px #1B1B19 solid;
+        padding: 10px;
+        margin: 20px;
+        background-color: #ECE8E7;
+
+    }
+    
+    .float_area {
+        border: 1px #1B1B19 solid;
+        width: 100px;
+        float: left;
+        margin: 0 10px 10px 0;
+        background-color: green;
+    }
+    
+    .normal_area {
+        border: 3px #1B1B19 solid;
+        height: 150px;
+        line-height: 150px;
+        width: 210px;
+        clear: both;
+        background-color: blue;
+}
+    }
+    
+    .float_area,
+    .normal_area {
+        height: 50px;
+        line-height: 50px;
+        background-color: blue;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="item">
+        <div class="float_area">左浮动模块</div>
+        <div class="float_area">左浮动模块</div>
+        <div class="normal_area">希望按正常流显示的模块</div>
+    </div>
+</body>
+
+
+</html>

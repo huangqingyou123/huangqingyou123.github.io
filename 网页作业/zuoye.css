@@ -1,5 +1,4 @@
 body {
-    background-image: url(beijing.jpg);
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-color: #ECE8E7;
@@ -10,16 +9,16 @@ h1 {
     color: #1B1B19;
     font-size: 40px;
     border-bottom: 0.2px white solid;
-    width: 350px;
+    width: 290px;
     padding-bottom: 3px;
     margin: 10px auto;
 }
 
 p {
     color: #fff;
-    text-indent: 2em;
+    text-indent: 3em;
     line-height: 1.5;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 form {
