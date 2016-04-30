@@ -64,7 +64,7 @@ body {
     display: block;
     float: left;
     width: 96px;
-    background-color: #3bc0af;
+    background-color: #DBC29B;
     font-family: 黑体;
     font-size: 16px;
     height: 32px;
@@ -89,3 +89,81 @@ body {
     border-bottom: none;
 }
 
+
+/*--专栏 --*/
+a.all{
+height:16px;
+width:40px;
+font-size:12px;}
+.classfied a:hover,.classfied a.current{
+    background-color:#000;
+    filter:alpha(opacity=50); 
+-moz-opacity:0.5; 
+opacity:0.5;
+color:#fff;}
+
+.classfied a:first-child{
+    }
+.author-column li.bg-column{
+        margin-left:115px;
+        float:left;
+        display:block;
+        margin-right:0px;
+        margin-bottom:20px;
+        height:150px;
+        overflow:hidden;
+        position:relative;
+        background:url(img/bg_02.png) no-repeat;
+        width:279px;
+        zoom:1.5;
+}
+.author-column li.group-end{
+    margin-right:0px;}
+.author-column li  h3 a{
+    color:#000;
+    font-size:10px;
+    text-decoration:none;
+    font-family: 黑体;
+
+}
+.author-column li  h3 a:hover {
+    color: #666;
+    text-decoration:none;
+}
+
+span{
+    font-size:10px;
+}
+.author-column li .group{
+    margin:20px 0px 20px 18px;}
+.Month ul li img{display:block;}
+.author-column .Meta ul li{
+    display:block;
+    margin-bottom:15px;
+    width:300px;
+    white-space:nowrap;
+text-overflow:ellipsis;
+-o-text-overflow:ellipsis;
+overflow: hidden;
+color:#fff;
+}
+.author-column .Meta ul li a,.author-column .Meta ul li a:hover{
+color:#fff;
+}
+
+.author-column li .Meta {
+    display:none;
+    position:absolute;
+    bottom:45px;
+    width:258px;
+    height:100px;
+    padding:5px 0 0 10px;
+    background:#000;
+    left:0px;
+    opacity:.7;
+    filter:alpha(opacity=70);
+}
+
+.author-column li .Meta ul{
+    margin-top:10px;}
+/*--column--*/

@@ -1,0 +1,23 @@
+body {
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #E4E3DA;
+}
+
+h1 {
+    text-align: center;
+    color: #1B1B19;
+    font-size: 32px;;
+    font-family: 黑体;
+}
+
+p {
+    color: #090909;
+    text-align: center;
+    font-size: 24px;
+    font-family: 黑体;
+}
+
+form {
+    text-indent: 3.5em;
+}
