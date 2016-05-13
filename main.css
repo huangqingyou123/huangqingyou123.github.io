@@ -25,6 +25,8 @@ body {
     width: 970px;
     background-color: #FCFBF0;
     margin: 0 auto;
+    padding: 0 20px;
+
 }
 
 .nav {
@@ -90,10 +92,9 @@ body {
     border-bottom: none;
 }
 
-
 /*--专栏 --*/
 embed {
-    margin: 50px 30px 0px 180px;
+    margin: 30px 30px 0px 180px;
     text-align: center;
 }
 
@@ -124,43 +125,18 @@ embed {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.article-info .sina {
-    background-image: url(img/share-icon.png);
-}
-
-.article-info .wechat {
-    background-image: url(img/share-icon.png);
-    background-position: 0 -30px;
-}
-
-.article-info .QQzone {
-    background-image: url(img/share-icon.png);
-    background-position: 0 -60px;
-}
-
-.article-info .QQ {
-    background-image: url(img/share-icon.png);
-    background-position: 0 -90px;
-}
-
-.article-info .email {
-    background-image: url(img/share-icon.png);
-    background-position: 0 -120px;
-}
-
-.article-info .other {
-    background-image: url(img/share-icon.png);
-    background-position: 0 -150px;
-}
-
 .channel-nav,
 .channel-nav p {
     color: #626360;
     font-size: 16px;
     text-decoration: none;
-    margin-left: 40px;
     margin-bottom: 30px;
 }
+
+.bshare-custom icon-medium-plus{
+    padding-left: 35px;
+}
+
 .main {
     margin-top: 30px;
 }
@@ -186,19 +162,18 @@ color:#fff;
 .classfied a:first-child{
     }
 .author-column li.bg-column{
-        margin-left:54px;
+        margin-left: 0px;
         float:left;
         display:block;
-        margin-right:0px;
         margin-bottom:20px;
+        margin-right: 40px;
         height:150px;
         overflow:hidden;
         position:relative;
         background:url(img/bg_02.png) no-repeat;
-        width:279px;
-        zoom:1.35;
-        margin-top: 35px;
-        padding-top: 10px;
+        width:600px;
+        zoom:3.3;
+        margin-top: 10px;
 }
 
 .author-column li.group-end{
