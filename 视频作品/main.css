@@ -101,7 +101,7 @@ body {
     padding-top: 10px;
 }
 
-.left {
+.right {
     width: 640px;
     float: left;
     padding-right: 14px;
@@ -124,7 +124,7 @@ body {
     color: #AB896B;
 }
 
-.left p:first-child {
+.right p:first-child {
     color: #888;
     font-size: 12px;
     margin-bottom: 10px;
@@ -163,7 +163,7 @@ body {
     background-position: 0 -30px;
 }
 
-.left p {
+.right p {
     text-indent: 2em;
     line-height: 1.3;
     margin: 8px 0;
@@ -172,7 +172,7 @@ body {
     font-family:"仿宋";
 }
 
-.left p a{
+.right p a{
     color:#554123;
     font-size:15px;
     font-family:"Microsoft Yahei";
@@ -180,7 +180,7 @@ body {
     margin-top: 50px;
 }
 
-.left img {
+.right img {
     text-align: center;
 }
 
